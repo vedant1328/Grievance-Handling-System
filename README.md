@@ -1,34 +1,41 @@
-# Online_Grievance_Redressal_Portal
-A simple portal for grievance redressal made using Django
+# Grievance Handling System
+
+The **Grievance Handling System** is a comprehensive platform designed to streamline the management and resolution of grievances. Whether it’s customer complaints or employee issues, this system ensures transparency, accountability, and efficiency at every stage of the grievance lifecycle.
+
+---
+
+## 🌟 **Key Features**
+- **User-Friendly Grievance Submission**  
+  Submit grievances through an intuitive interface, complete with attachment support.  
+- **Real-Time Tracking**  
+  Track the status of grievances with clear progress indicators (e.g., Received, Under Review, Resolved).  
+- **Automated Escalation**  
+  Set rules for automatic grievance escalation to ensure timely resolution.  
+- **Feedback Mechanism**  
+  Gather user feedback after grievance resolution to measure satisfaction.  
+- **Reporting & Analytics**  
+  Generate insightful reports and visualize trends to improve organizational processes.  
+
+---
+
+## 🛠️ **Technology Stack**
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB/MySQL  
+- **Tools:** Chart.js (for analytics), Postman (API testing), GitHub (version control)  
+
+---
+
+## ⚙️ **How It Works**
+1. **Register/Login**  
+   Users authenticate to access their personalized grievance portal.  
+2. **Submit Grievances**  
+   Fill out forms to submit issues, categorize them, and upload supporting documents if needed.  
+3. **Grievance Tracking**  
+   Users can view the status and history of their grievances in real time.  
+4. **Escalation**  
+   Grievances are automatically escalated if unresolved within a set time frame.  
+5. **Reports & Feedback**  
+   Admins generate reports, and users provide feedback for continuous improvement.  
 
 
-# Local Machine Setup
-To run this Django app locally on your machine follow the steps below:
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/slayeh17/Online_Grievance_Redressal_Portal.git
-   ```
-
-2. **Navigate to the Repository**:
-   ```sh
-   cd Online_Grievance_Redressal_Portal
-   ```
-3. **Create and activate a virtual environment**
-   ```sh
-   # For Linux
-   python3 -m venv venv
-   source venv/bin/activate
-
-   # For Windows
-   python -m venv venv
-   source venv/Scripts/activate
-   ```
-4. **Run the application**
-   ```sh
-   pip install django
-   python manage.py migrate
-   python manage.py runserver
-   ```
-5. **Open in browser**
-   Go to http://127.0.0.1:8000/ or type ```localhost:8000```
